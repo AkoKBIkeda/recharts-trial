@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import DashboardPage from './Dashboard/DashboardPage';
 import Page from './Page';
-import BarChart from './components/BarChart';
+import Test from './Test';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/charts" element={<Page />} />
           <Route path="/" element={<h1>Welcome to the App</h1>} />
-          <Route path="/barchart" element={<BarChart />} />
+          <Route path="/test" element={<Test />} />
         </Routes>
       </div>
     </Router>
